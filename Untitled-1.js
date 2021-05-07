@@ -94,14 +94,17 @@ var devMountainClassPet = 'Spot'
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
-function nameCheck(Steven) {
-  if (nameCheck == Steven);
+function nameCheck(i) {
+  if (i === Steven);
   return 'What is up Steven?';
-  if (nameCheck == Bryan);
+ } else if (i === Bryan) {
   return 'Hey Bryan!';
-  if (nameCheck == Joe);
+ } else if (i === Joe) {
   return 'Cool name, Joe'
-}
+ } else {
+   return 'Cool name,' + 'i';
+ }
+
 
 //////////////////PROBLEM 11////////////////////
 
@@ -128,14 +131,15 @@ mathSum = (3 + 4)
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-function faveColorFinder(color) {
-  if (color === 'red');
-  return 'red is a great color';
-  if (color === 'green');
-  return 'green is a solid favorite color';
-  if (color === 'black');
-  return ' so trendy'; 
-  console.log('you need to evaluate your favorite color choice')
+function faveColorFinder() {
+if (i === 'red');
+    return 'red is a great color';
+} else if (i === 'green') {
+    return 'green is a solid favorite color';
+} else if (i === 'black') {
+    return ' so trendy'; 
+} else {
+  return 'you need to evaluate your favorite color choice'
 }
   
 
